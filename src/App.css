@@ -1,38 +1,34 @@
 .App {
-  text-align: center;
+  padding: 6rem;
+  background: url("./andrea-de-santis-zwd435-ewb4-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+textarea {
+  width: 60%;
+  height: 40vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  padding: 1rem 2.8rem;
+  background-color: #2e66e5;
+  border-color: #2e66e5;
+  border-radius: 0.5rem;
   color: white;
+  margin-left: 18.8rem;
+}
+.text {
+  width: 60%;
 }
 
-.App-link {
-  color: #61dafb;
+article {
+  background-color: gainsboro;
+  width: 50%;
+  padding: 1rem 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2,
+.prompt {
+  color: white;
 }
