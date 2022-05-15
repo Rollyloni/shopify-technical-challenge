@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// require("dotenv").config();
 let persistData = JSON.parse(localStorage.getItem("token"));
 
 class Form extends Component {
@@ -28,7 +29,7 @@ class Form extends Component {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${process.env.REACT_APP_OPENAI_SECRET}`,
       },
       body: JSON.stringify(data),
     })
