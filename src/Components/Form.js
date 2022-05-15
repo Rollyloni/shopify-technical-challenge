@@ -29,7 +29,7 @@ class Form extends Component {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${process.env.API__KEY}`,
       },
       body: JSON.stringify(data),
     })
